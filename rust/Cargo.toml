@@ -1,0 +1,17 @@
+[package]
+name = "u2tool"
+version = "0.1.0"
+edition = "2024"
+description = "8BitDo Ultimate Software V2 para Linux (Ultimate 2)"
+
+[dependencies]
+eframe = "0.29.1"
+image = { version = "0.25", default-features = false, features = ["png"] }
+libc = "0.2"
+serde_json = "1"
+base64 = "0.22"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
