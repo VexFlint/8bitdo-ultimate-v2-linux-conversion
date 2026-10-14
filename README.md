@@ -58,3 +58,8 @@ Leituras reais do controle (sem arte nem material da 8BitDo). Detalhes em
 | Macros: gravar, ler de volta, apagar | Dongle ao desligar/religar o controle |
 | --- | --- |
 | ![macros](docs/img/macros-gravar-ler-apagar.png) | ![dongle](docs/img/dongle-desligar-religar.png) |
+
+## Licença
+
+MIT para o código deste repositório (ver [LICENSE](LICENSE)). A licença **não** cobre
+o material da 8BitDo que o script extrai do zip oficial.
