@@ -34,6 +34,11 @@ já existirem. `--so-verificar` mostra o plano sem baixar nada; `--assets DIR` u
 extraídas; `--saida DIR` muda o destino. O AppImage leva material da 8BitDo: **uso pessoal,
 não redistribua**.
 
+> **Ainda não testado:** o download automático das ferramentas que faltam (rustup, SDK do .NET,
+> ilspycmd, appimagetool). O script foi validado de ponta a ponta com tudo já instalado; numa
+> máquina limpa esse trecho pode falhar. Se falhar, instale as ferramentas à mão e rode de novo,
+> e abra uma issue com a saída.
+
 Alternativa sem AppImage: `python3 extract_assets.py ZIP` e depois `./install.sh`
 (instala no usuário e cria o atalho no menu; `./install.sh --remover` desfaz).
 
